@@ -1,11 +1,14 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: times;
+  font-family: calibri;
   margin: 5em;
+  padding: 10px;
+  text-align: center;
+  background: #EBC8B2;
 }
 
 h1 {
   font-style: bold;
-  color: red;
+  color: white;
 }
