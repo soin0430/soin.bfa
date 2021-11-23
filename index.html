@@ -5,10 +5,8 @@
     Template. It has been modified and additional examples have
     been added to demo a simple art portfolio. -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="" />
     <meta
       name="author"
@@ -29,15 +27,8 @@
       rel="stylesheet"
     />
 
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-     <!-- Additional Style Rules-->
+    <!-- Additional Style Rules-->
     <style>
-      body {
-        margin: 0;
-      }
-
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -52,7 +43,7 @@
           font-size: 3.5rem;
         }
       }
-      ul.topnav {
+      ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -61,16 +52,16 @@
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
-        font-family: 'ubuntu', sans-serif;
+        font-family: "ubuntu", sans-serif;
         font-size: 12px;
         font-weight: normal;
       }
 
-      ul.topnav li. {
+      li {
         float: right;
       }
 
-      ul.topnav li a {
+      li a {
         display: block;
         color: black;
         text-align: left;
@@ -78,23 +69,12 @@
         text-decoration: none;
       }
 
-      ul.topnav li a:hover {
+      li a:hover {
         color: #b10096;
       }
 
-      ul.topnav li a.active {
+      .active {
         color: #b10096;
-      }
-
-      ul.topnav li.right {
-        float: right;
-      }
-
-      @media screen and (max-width: 600px) {
-        ul.topnav li.right,
-        ul.topnav li {
-          float: none;
-        }
       }
 
       h1 {
@@ -107,6 +87,13 @@
       p {
         font-style: normal;
       }
+      
+      @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
     </style>
 
     <!-- Custom styles for this template -->
@@ -125,7 +112,7 @@
         alt="logo"
       />
 
-      <ul class="topnav">
+      <ul>
         <li>
           <a href="mailto:soin.an@sjsu.edu" style="text-decoration: none"
             >CONTACT</a
@@ -166,33 +153,37 @@
       </div>
     </main>
 
-    <div class="row">
-      <div class="column">
-        <img
-          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
-          alt="project card"
-        />
+    
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
+            alt="project card"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
+            alt="project card"
+          />
+        
       </div>
-      <div class="column">
-        <img
-          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
-          alt="project card"
-        />
       </div>
-    </div>
-
-    <div class="row">
-      <div class="column">
-        <img
-          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
-          alt="project card"
-        />
-      </div>
-      <div class="column">
-        <img
-          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
-          alt="project card"
-        />
+     
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
+              alt="project card"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
+              alt="project card"
+            />
+          
+        </div>
       </div>
     </div>
 
