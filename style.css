@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'ubuntu', sans-serif;
+  
   padding-right: 200px;
   padding-left: 200px;
   
@@ -12,17 +12,7 @@ body {
   background-size: cover;
 }
 
-h1 {
-  font-style: bold;
-  font-family:'ubuntu', sans-serif;
-  font-weight: 500;
-}
 
-p {
-  font-style: normal;
-  font-family: 'ubuntu', sans-serif;
-
-}
 
 
 
