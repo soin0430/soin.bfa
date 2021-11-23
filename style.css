@@ -1,9 +1,9 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: calibri;
-  padding-right: 0px;
-  padding-left: 0px;
+  font-family: "Calibre", sans-serif;
+  padding-right: 200px;
+  padding-left: 200px;
   margin: 5em;
   text-align: center;
   background: #f4f4f4;
@@ -12,11 +12,13 @@ body {
 }
 
 h1 {
-  font-style: bold;
-  color: black;
+  font-style: normal;
+  font-family: "Calibre", sans-serif;
+  font-weight: 500;
 }
 
 p {
-  color: black;
+  font-style: normal;
+  font-family: "Calibre", sans-serif;
 
 }
