@@ -34,6 +34,13 @@ body {
   padding-bottom: 140px;
 }
 
+.card {
+  padding-right: 30px;
+    padding-left: 30px;
+  
+    
+}
+
 .column {
   float: left;
   width: 50%;
