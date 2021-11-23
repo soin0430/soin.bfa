@@ -29,8 +29,15 @@
       rel="stylesheet"
     />
 
-    <!-- Additional Style Rules-->
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+     <!-- Additional Style Rules-->
     <style>
+      body {
+        margin: 0;
+      }
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -45,7 +52,7 @@
           font-size: 3.5rem;
         }
       }
-      ul {
+      ul.topnav {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -54,16 +61,16 @@
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
-        font-family: "Calibre", sans-serif;
+        font-family: 'ubuntu', sans-serif;
         font-size: 12px;
         font-weight: normal;
       }
 
-      li {
+      ul.topnav li. {
         float: right;
       }
 
-      li a {
+      ul.topnav li a {
         display: block;
         color: black;
         text-align: left;
@@ -71,12 +78,23 @@
         text-decoration: none;
       }
 
-      li a:hover {
+      ul.topnav li a:hover {
         color: #b10096;
       }
 
-      .active {
+      ul.topnav li a.active {
         color: #b10096;
+      }
+
+      ul.topnav li.right {
+        float: right;
+      }
+
+      @media screen and (max-width: 600px) {
+        ul.topnav li.right,
+        ul.topnav li {
+          float: none;
+        }
       }
 
       h1 {
@@ -89,10 +107,6 @@
       p {
         font-style: normal;
       }
-      
-     
-      
-    
     </style>
 
     <!-- Custom styles for this template -->
@@ -111,7 +125,7 @@
         alt="logo"
       />
 
-      <ul>
+      <ul class="topnav">
         <li>
           <a href="mailto:soin.an@sjsu.edu" style="text-decoration: none"
             >CONTACT</a
@@ -152,37 +166,33 @@
       </div>
     </main>
 
-    
-      <div class="row">
-        <div class="column">
-          <img
-            src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
-            alt="project card"
-          />
-        </div>
-        <div class="column">
-          <img
-            src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
-            alt="project card"
-          />
-        
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
+          alt="project card"
+        />
       </div>
+      <div class="column">
+        <img
+          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
+          alt="project card"
+        />
       </div>
-     
-        <div class="row">
-          <div class="column">
-            <img
-              src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
-              alt="project card"
-            />
-          </div>
-          <div class="column">
-            <img
-              src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
-              alt="project card"
-            />
-          
-        </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template.jpg?v=1637637464081"
+          alt="project card"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Fcard%20template2.jpg?v=1637637923644"
+          alt="project card"
+        />
       </div>
     </div>
 
