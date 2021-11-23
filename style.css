@@ -57,8 +57,12 @@ body {
   padding: 10px;
 }
 
-@media screen and (max-width: 600px;) {
+@media screen and (max-width: 1000px;) {
   .column {
     width: 100%;
   }
+}
+  @media screen and (max-width: 1000px) {
+  ul. li.right, 
+  ul. li {float: none;}
 }
