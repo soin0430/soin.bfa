@@ -4,6 +4,7 @@ body {
   font-family: "Calibre", sans-serif;
   padding-right: 200px;
   padding-left: 200px;
+  
   margin: 3em;
   text-align: center;
   background: #f4f4f4;
@@ -28,13 +29,17 @@ p {
 
 .header img {
   float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
+  width: 10%;
+  
 }
 
 .header h1 {
   position: relative;
   top: 18px;
   left: 10px;
+}
+
+.section{
+  padding-top: 96px;
+  padding-bottom: 140px;
 }
