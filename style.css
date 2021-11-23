@@ -45,8 +45,8 @@ p {
 }
 
 .column {
-  float: left;
-  width: 50%;
+  float: center;
+  width: 100%;
   padding: 5px;
 }
 
@@ -54,4 +54,5 @@ p {
   content: "";
   clear: both;
   display: table;
+  p
 }
