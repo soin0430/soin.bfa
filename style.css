@@ -66,3 +66,6 @@ body {
   ul. li.right, 
   ul. li {float: none;}
 }
+
+box-sizing: content-box;
+width: 100%;
