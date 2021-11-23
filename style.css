@@ -2,23 +2,21 @@
 
 body {
   font-family: calibri;
-  padding-top: 250px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin: 5em;
   text-align: center;
-  background: white;
-}
-body {
-    background-image: url(https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2F042921.jpg?v=1636610661650);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: #f4f4f4;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   font-style: bold;
-  color: white;
+  color: black;
 }
 
 p {
-  color: white;
+  color: black;
 
 }

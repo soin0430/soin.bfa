@@ -41,6 +41,36 @@
           font-size: 3.5rem;
         }
       }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #00000;
+      }
+
+      .active {
+        background-color: #white;
+      }
     </style>
 
     <!-- Custom styles for this template -->
@@ -51,55 +81,25 @@
     <link rel="stylesheet" href="style.css" />
     <script src="/script.js" defer></script>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Soin An</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  
+  <header>
+  <div class="header">
+  
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/portfolio/index.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/bio.html">Bio</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="text"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
-    </nav>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+    </div>
+
+  </header>
+  <body>
+    
+
     <h1>Hello, this is Soin An.</h1>
-    <p>
-      I believe creative things can change how we live<br /><br />
-      
-    </p>
-    
-    
+    <p>I believe creative things can change how we live<br /><br /></p>
+
     <!--bootsratp-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
