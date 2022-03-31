@@ -53,9 +53,9 @@ body {
   clear: both;
 }
 
-@media screen and (max-width: 600px;) {
+@media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 50%;
   }
 }
   @media screen and (max-width: 600px) {
