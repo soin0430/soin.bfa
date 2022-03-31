@@ -58,8 +58,7 @@
       padding: 0;
       overflow: hidden;
       background-color: #ffffff;
-      position: -webkit-sticky; /* Safari */
-      position: sticky;
+     
       top: 0;
       font-family: "ubuntu", sans-serif;
       font-size: 8px;
@@ -67,7 +66,7 @@
     }
 
     li {
-      float: right;
+      float: left;
     }
 
     li a {
@@ -102,7 +101,9 @@
         width: 100%;
       }
     }
+    
     .sidenav {
+      height: 100%;
       width: 160px;
       position: fixed;
       z-index: 1;
@@ -114,7 +115,7 @@
     }
 
     .sidenav a {
-      padding: 10px 8px 6px 0px;
+      padding: 6px 8px 6px 16px;
       text-decoration: none;
       font-size: 18px;
       color: #818181;
@@ -138,6 +139,11 @@
       }
       .sidenav a {
         font-size: 12px;
+      }
+      .main {margin-left: 160px;
+        padding-left: 160px;
+        
+        
       }
     }
   </style>
