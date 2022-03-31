@@ -62,7 +62,7 @@
       position: sticky;
       top: 0;
       font-family: "ubuntu", sans-serif;
-      font-size: 12px;
+      font-size: 8px;
       font-weight: normal;
     }
 
@@ -103,67 +103,74 @@
       }
     }
     .sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #ffffff;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
+    .sidenav a {
+      padding: 10px 8px 6px 0px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #818181;
+      display: block;
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
+    }
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+    .main {
+      margin-left: 160px; /* Same as the width of the sidenav */
+      font-size: 16px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+    }
 
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+      .sidenav a {
+        font-size: 12px;
+      }
+    }
   </style>
 
   <header>
     <div class="header">
-     
-      
       <div class="sidenav">
-        
+        <ul>
+          
+            <a href="/index.html" style="text-decoration: none"
+              ><img
+                src="https://cdn.glitch.me/0ec6ce21-231c-4146-8e5a-e5718f5a22f1%2Flogo1.png?v=1637638518383"
+                alt="logo"
+                style="100%"
+            /></a>
+          
+          <li>
+            <a href="/portfolio/works.html" style="text-decoration: none"
+              >WORKS</a
+            >
+          </li>
 
-      <ul>
-        <li>
-          <a href="mailto:soin.an@sjsu.edu" style="text-decoration: none"
-            >CONTACT</a
-          >
-        </li>
-        <li><a href="/bio.html" style="text-decoration: none">ABOUT</a></li>
-        <li>
-          <a href="/portfolio/works.html" style="text-decoration: none"
-            >WORKS</a
-          >
-        </li>
-        <li>
-          <a class="active" href="#home" style="text-decoration: none">HOME</a>
-        </li>
-      </ul>
-       </div>
-   
+          <li><a href="/bio.html" style="text-decoration: none">ABOUT</a></li>
+
+          <li>
+            <a href="mailto:soin.an@sjsu.edu" style="text-decoration: none"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
   <!----body---->
   <body>
