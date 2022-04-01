@@ -1,26 +1,68 @@
+/* CSS files add styling rules to your content */
+
 body {
-  padding-top: 5rem;
-  margin: 5em;
-  color: #white;
-
   
-}
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: left;
- 
+  padding-right: 50px;
+  padding-left: 160px;
   
+  margin: 3em;
+  text-align: center;
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.nav-p{
-  display:inline-block;
-  padding-top:.3125rem;
-  padding-bottom:.3125rem;
-  margin-right:1rem;
-  font-size:1.25rem;
 
-  line-height:inherit;
-  white-space:nowrap;
-  color: #white;
+
+
+
+
+
+.header img {
+  float: left;
+  width: 100%;
   
 }
 
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.section{
+  padding-top: 96px;
+  padding-bottom: 140px;
+}
+
+.card {
+  padding-right: 30px;
+    padding-left: 30px;
+  
+    
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 25%;
+  }
+}
+  @media screen and (max-width: 800px) {
+  ul. li.right, 
+  ul. li {float: none;}
+}
+
+box-sizing: content-box;
+width: 100%;
