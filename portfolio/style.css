@@ -12,14 +12,16 @@ body {
   background-size: cover;
 }
 
-
-
-
+.body img{
+  width: 100%;
+  padding-bottom: 50px;
+}
 
 
 .header img {
   float: left;
-  width: 100%;
+  width: 60%;
+  padding-bottom: 30px;
   
 }
 
