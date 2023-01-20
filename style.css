@@ -49,9 +49,16 @@ body {
   padding-bottom: 50px;
   padding-right: 50px;
 }
-.column2 {
+.column3 {
   float: left;
-  width: 100%;
+  width: 30%;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+.column7 {
+  float: left;
+  width: 70%;
   padding-bottom: 50px;
   padding-right: 50px;
 }
