@@ -63,21 +63,21 @@
       padding: 0;
       overflow: hidden;
       background-color: #ffffff;
-     
+
       top: 0;
-      font-family: "Vidaloka", serif;
-      font-size: 8px;
+      font-family: "Karla", serif;
+      font-size: 20px;
       font-weight: normal;
     }
 
     li {
       float: left;
-      font-family: "Vidaloka", serif;
+      font-family: "Karla", serif;
     }
 
     li a {
       display: block;
-      color: black;
+      color: #000000;
       text-align: left;
       padding: 14px 16px;
       text-decoration: none;
@@ -90,23 +90,64 @@
     .active {
       color: #b10096;
     }
+  
 
     h1 {
-      font-style: normal;
-      font-family: "Vidaloka", serif;
-      font-weight: 500;
-      text-align: left;
-      font-size: 18px;
-    }
-
-    p {
       font-style: bold;
+      font-family: "Karla", serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 27px;
+    }
+     h2 {
+
+      text-align: left;
+      
+    }
+    h3 {
+      font-style: normal;
+      font-family: "Karla", serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 20px;
+    }
+   
+   
+    h6 {
+      font-style: normal;
+      font-family: "Karla", serif;
+      font-color: #C6C6C6;
+      font-weight: 400;
+      text-align: left;
+      font-size: 12px;
+    }
+    p {
+      font-style: normal;
       font-family: "Karla", sans-serif;
-      font-weight: 800;
+      font-weight: 400;
       text-align: left;
       font-size: 18px;
     }
+    
+   
 
+    p a {
+      display: block;
+          color: #FD9C2D;
+ font-style: normal;
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    p a:hover {
+      color: #000000;
+    }
+
+   
 
     @media screen and (max-width: 600px) {
       .column {
@@ -114,7 +155,7 @@
         padding-bottom: 50px;
       }
     }
-    
+
     .sidenav {
       height: 100%;
       width: 160px;
@@ -133,7 +174,6 @@
       font-size: 18px;
       color: #000009;
       display: block;
-
     }
 
     .sidenav a:hover {
@@ -146,7 +186,7 @@
       font-size: 16px; /* Increased text to enable scrolling */
       padding: 0px 10px;
     }
- .active {
+    .active {
       color: #006241;
     }
     @media screen and (max-height: 450px) {
@@ -156,20 +196,22 @@
       .sidenav a {
         font-size: 12px;
       }
-      .main {margin-left: 160px;
+      .main {
+        margin-left: 160px;
         padding-left: 160px;
-        
-        
+      }
+      .img {
+        width: 500px;
       }
     }
-    
-
- footer{
-    background-color: #000000;
+    .footer{
+    background-color: #EBECF0;
     width: 100%;
-    font-size: 16px;
+padding: 25px;
+    border-radius: 5px;
     text-align: left;
-    font-weight: bold;
+    font-weight: normal;
+       font-family: "Karla", sans-serif;
 }
 
   </style>
@@ -178,35 +220,34 @@
     <div class="header">
       <div class="sidenav">
         <ul>
-          
-            <a href="./index.html" style="text-decoration: none"
-              ><img
-                src="https://cdn.glitch.global/0ec6ce21-231c-4146-8e5a-e5718f5a22f1/namelogo.png?v=1648787732597"
-                alt="logo"
-                style="100%"
-            /></a>
-          
+          <a href="./index.html" style="text-decoration: none"
+            ><img
+              src="./resource/namelogo.png"
+              alt="logo"
+              style="100%"
+          /></a>
+
           <li>
             <a href="./works.html" style="text-decoration: none"
-              ><h1>
-              
-              WORKS</h1></a
+              ><ul>WORKS</ul></a
             >
           </li>
 
-          <li><a href="./bio.html" style="text-decoration: none"><h1>
-            
-            ABOUT</h1></a></li>
-          
-          <li><a href="https://drive.google.com/file/d/1yKP6Wr5qEm62AT5oiXWWEtA9xNwFP_9L/view?usp=sharing" style="text-decoration: none"><h1>
-            
-            RESUME</h1></a></li>
+          <li>
+            <a href="./bio.html" style="text-decoration: none"><ul>ABOUT</ul></a>
+          </li>
+
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1ppQ-XzfhuOqEVOi4WtXX3FwdcxW1XrmB/view?usp=sharing"
+              style="text-decoration: none"
+              ><ul>RESUME</ul></a
+            >
+          </li>
 
           <li>
             <a href="mailto:soin.an@sjsu.edu" style="text-decoration: none"
-              ><h1>
-              
-              CONTACT</h1></a
+              ><ul>CONTACT</ul></a
             >
           </li>
         </ul>
@@ -220,7 +261,6 @@
       <div class="section">
          <img
               src="./resource/port3.png"
-              alt="portfolio line"
               width="100%"
                  />
         <div class="row">
@@ -250,14 +290,14 @@ I grew up in 3 different countries which are South Korea, Malaysia, and the Unit
           <div class="row">
             
           <div class="column">
-            <p>
-              👍Areas of Expertise<br>UI/UX Design<br>Adobe Photoshop<br>Adobe Illustrator<br>Adobe Premiere Pro<br>Frontend Website Desgin<br>Interactive Envrionmnet Design<br></p>
+            <h3>
+              👍 Areas of Expertise<p><br>UI/UX Design<br>Adobe Photoshop<br>Adobe Illustrator<br>Adobe Premiere Pro<br>Frontend Website Desgin<br>Interactive Envrionmnet Design<br></p>
             </div>
         
           <div class="column">
-           <p>
+           <h3>
               
-              🐈Personal Interests<br>VR UX Design<br>My 3 Cats<br>Authentic Food<br></p>
+              🐈 Personal Interests<p><br>VR UX Design<br>My 3 Cats<br>Authentic Food<br></p>
         </div></div>
 
 
@@ -274,11 +314,26 @@ I grew up in 3 different countries which are South Korea, Malaysia, and the Unit
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer>
-  <p>
-    <p>Thank you for scrolling down. Here's My <a href="https://drive.google.com/file/d/1yKP6Wr5qEm62AT5oiXWWEtA9xNwFP_9L/view?usp=sharing"
-              style="text-decoration: none">resume!</a><br>soin.an@sjsu.edu<br>© Copyright Soin An. All Rights Reserved</p>
-
-    </p>
-  </footer>
+   <div class="footer">
+        
+           <p>Thank you for scrolling down. Here's My <a href="https://drive.google.com/file/d/1ppQ-XzfhuOqEVOi4WtXX3FwdcxW1XrmB/view?usp=sharing"
+                                                         >Resume!</a></p>
+   
+            <a href="mailto:soin.an@sjsu.edu"> <img
+                  src="./resource/noun-email-5413032.png"
+                  width="5%"
+                  alt="email"
+              />
+              </a>
+            <a href="https://www.linkedin.com/in/soin-an-460851222/"
+              > <img
+                  src="./resource/Screenshot 2023-01-19 at 5.16.47 PM.png"
+                  width="4%"
+                  alt="linkedin"
+              />
+              </a><br>
+         <p>soin.an@sjsu.edu<br>© Copyright Soin An. All Rights Reserved
+            </p>
+            </div>
+ </footer>
 </html>
