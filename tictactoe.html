@@ -26,6 +26,11 @@
       href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap"
       rel="stylesheet"
     />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap" 
+      rel="stylesheet"
+          />
+    
 
     <!-- Additional Style Rules-->
 
@@ -60,19 +65,19 @@
       background-color: #ffffff;
 
       top: 0;
-      font-family: "Vidaloka", serif;
-      font-size: 8px;
+      font-family: "Karla", serif;
+      font-size: 20px;
       font-weight: normal;
     }
 
     li {
       float: left;
-      font-family: "Vidaloka", serif;
+      font-family: "Karla", serif;
     }
 
     li a {
       display: block;
-      color: black;
+      color: #000000;
       text-align: left;
       padding: 14px 16px;
       text-decoration: none;
@@ -85,18 +90,51 @@
     .active {
       color: #b10096;
     }
+  
 
     h1 {
+      font-style: bold;
+      font-family: "Karla", serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 27px;
+    }
+     h2 {
+
+      text-align: left;
+      
+    }
+    h3 {
       font-style: normal;
-      font-family: "Vidaloka", serif;
-      font-weight: 500;
+      font-family: "Karla", serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 20px;
+       font-color: #C6C6C6;
+    }
+   
+   
+    h4 {
+      font-style: bold;
+      font-family: "Karla", serif;
+      font-color: #C6C6C6;
+      font-weight: 400;
+      text-align: left;
+      font-size: 14px;
+    }
+    
+    p {
+      font-style: normal;
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
       text-align: left;
       font-size: 18px;
     }
+    
+   
 
-    p {
-      font-style: normal;
-    }
+
+   
 
     @media screen and (max-width: 600px) {
       .column {
@@ -104,10 +142,7 @@
         padding-bottom: 50px;
       }
     }
-    img {
-      padding-top: 50px;
-      width: 1000px;
-    }
+
     .sidenav {
       height: 100%;
       width: 160px;
@@ -152,7 +187,23 @@
         margin-left: 160px;
         padding-left: 160px;
       }
+      .img {
+        width: 500px;
+      }
     }
+    .footer{
+    background-color: #EBECF0;
+    width: 100%;
+padding: 25px;
+    border-radius: 5px;
+    text-align: left;
+    font-weight: normal;
+       font-family: "Karla", sans-serif;
+}
+    hr {
+  width: 90%;
+}
+
   </style>
 
   <header>
@@ -168,23 +219,25 @@
 
           <li>
             <a href="./works.html" style="text-decoration: none"
-              ><h1>WORKS</h1></a
+              ><ul>WORKS</ul></a
             >
           </li>
 
           <li>
-            <a href="./bio.html" style="text-decoration: none"><h1>ABOUT</h1></a>
+            <a href="./bio.html" style="text-decoration: none"><ul>ABOUT</ul></a>
           </li>
 
           <li>
-            <a href="https://drive.google.com/file/d/1yKP6Wr5qEm62AT5oiXWWEtA9xNwFP_9L/view?usp=sharing" style="text-decoration: none"
-              ><h1>RESUME</h1></a
+            <a
+              href="https://drive.google.com/file/d/1bgpk5_nDrY0P6wCKEWuhh6JwAZANwRFT/view?usp=sharing"
+              style="text-decoration: none"
+              ><ul>RESUME</ul></a
             >
           </li>
 
           <li>
             <a href="mailto:soin.an@sjsu.edu" style="text-decoration: none"
-              ><h1>CONTACT</h1></a
+              ><ul>CONTACT</ul></a
             >
           </li>
         </ul>
@@ -197,76 +250,19 @@
     <main role="main" class="container">
       <div class="section">
            <img
-              src="./resource/glitchline.png"
+              src="./resource/whosline.png"
               alt="portfolio line"
               width="100%"
                  />
         <div class="row">
-          <iframe
-            width="1000"
-            height="500"
-            src="https://www.youtube.com/embed/_gsMYdfo0TE"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="row">
           <img
-            src="./resource/barcelona.png"
+            src="./resource/wdpage.jpg"
             width="100%"
           />
-        </div>
-        <div class="row">
-          <img
-            src="./resource/mon.png"
-            width="100%"
-          />
-        </div>
-        <div class="row">
-          <img
-            src="./resource/glitch2.jpg"
-            width="100%"
-          />
-        </div>
-        <div class="row">
-          <img
-            src="./resource/glitch1.jpg"
-            width="100%"
-          />
-        </div>
-
-        <p>
-          <br /><br />
-          I used Photoshop and Audacity to create Glitch for first Glitch video
-          and second glitch image of Mondrian. It is a picture of myself and I
-          also added sound to sync the speed of image changes in the glitch
-          video.
-          <br /><br />
-          Theme of the glitch project for fourth and third image is happy and
-          guilty relationship with fast-food. We all know that pizza and
-          hamburgers are delicious. They are rich in protein but also have
-          cholesterol and saturated fat. For fourth image, there are 56mg
-          cholesterol per hamburger so I divided the image like half original
-          and half with glitch. <br /><br />I thought It would be challenging to
-          find where is the half of the image in Text editor but It was so much
-          easier with Audacity. I like it because I didn’t have to worry about
-          first 200 words rules which cause an error since I am using Audacity
-          for editing. But also it was hard to find the middle of the image in
-          text editor. I think it turned out less appetizing but great. For the
-          last image, there are 7g of saturated fat in 100g of pizza.
-          <br /><br />So I tried to make at least 7 different glitch effects
-          using Audacity. Fade in, Fade out, Repeat, Change Tempo, Reverb,
-          Reverse and Distortion. I especially liked Reverb because it gives a
-          smooth glitch dots over the image like a glitch clouds. Also, I add
-          small glitches on the pizza like an additional toppings. Overall, It
-          was a cool project because now I know one new program for image
-          editing.
-        </p>
-      </div>
-    </main>
-
+        </div></div>
+       
+    </main></body>
+    
     <!--bootsratp-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -274,7 +270,59 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer>
-    <p>© Copyright Soin An. All Rights Reserved</p>
-  </footer>
+<footer>
+ <div class="footer">
+    <div class="section">
+          <div class="row">
+            <div class="column">
+               
+           
+                <p><img src="./resource/loca.png"
+                  width="10%"
+                  alt="loca"
+                     /> San Jose, CA</p>
+              
+            <p> <a href="mailto:soin.an@sjsu.edu">   
+              <img src="./resource/mail.png"
+                  width="10%"
+                  alt="mail"
+                    /></a> soin.an@sjsu.edu</p>
+              
+               <p>   <a href="https://drive.google.com/file/d/1bgpk5_nDrY0P6wCKEWuhh6JwAZANwRFT/view?usp=sharing">
+           <img src="./resource/resume.png"
+                  width="10%"
+                  alt="resume"
+                   /></a> Resume</p>
+              
+                      
+              
+   
+         
+            </div>
+            <div class="column">
+              <h2>Soin An</h2>
+              <p>Thank you for visiting my website.<br> This website was made from scratch with love.<br>© Copyright Soin An. All Rights Reserved.</p>
+              <a href="https://www.linkedin.com/in/soin-an-460851222/"><img
+                  src="./resource/in.png"
+                  width="10%"
+                  alt="Linkedin"
+                    /></a>
+              <a href="https://www.instagram.com/littlenot_/"><img
+                  src="./resource/insta.png"
+                  width="10%"
+                  alt="insta"
+                    /></a>
+              <a href="https://github.com/soin0430"><img
+                  src="./resource/git.png"
+                  width="10%"
+                  alt="github"
+                    /></a>
+              
+            </div>
+          </div>
+        </div>
+        
+         
+            </div>
+ </footer>
 </html>
