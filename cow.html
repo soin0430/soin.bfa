@@ -26,6 +26,11 @@
       href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap"
       rel="stylesheet"
     />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap" 
+      rel="stylesheet"
+          />
+    
 
     <!-- Additional Style Rules-->
 
@@ -60,19 +65,19 @@
       background-color: #ffffff;
 
       top: 0;
-      font-family: "Vidaloka", serif;
-      font-size: 8px;
+      font-family: "Karla", serif;
+      font-size: 20px;
       font-weight: normal;
     }
 
     li {
       float: left;
-      font-family: "Vidaloka", serif;
+      font-family: "Karla", serif;
     }
 
     li a {
       display: block;
-      color: black;
+      color: #000000;
       text-align: left;
       padding: 14px 16px;
       text-decoration: none;
@@ -85,29 +90,59 @@
     .active {
       color: #b10096;
     }
+  
 
     h1 {
+      font-style: bold;
+      font-family: "Karla", serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 27px;
+    }
+     h2 {
+
+      text-align: left;
+      
+    }
+    h3 {
       font-style: normal;
-      font-family: "Vidaloka", serif;
-      font-weight: 500;
+      font-family: "Karla", serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 20px;
+       font-color: #C6C6C6;
+    }
+   
+   
+    h4 {
+      font-style: bold;
+      font-family: "Karla", serif;
+      font-color: #C6C6C6;
+      font-weight: 400;
+      text-align: left;
+      font-size: 14px;
+    }
+    
+    p {
+      font-style: normal;
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
       text-align: left;
       font-size: 18px;
     }
+    
+   
 
-    p {
-      font-style: normal;
-    }
+
+   
 
     @media screen and (max-width: 600px) {
-      .column2 {
+      .column {
         width: 100%;
         padding-bottom: 50px;
       }
     }
-    img {
-      padding-top: 50px;
-      width: 1000px;
-    }
+
     .sidenav {
       height: 100%;
       width: 160px;
@@ -152,10 +187,23 @@
         margin-left: 160px;
         padding-left: 160px;
       }
-       .img {
-        width: 25%
+      .img {
+        width: 500px;
       }
     }
+    .footer{
+    background-color: #EBECF0;
+    width: 100%;
+padding: 25px;
+    border-radius: 5px;
+    text-align: left;
+    font-weight: normal;
+       font-family: "Karla", sans-serif;
+}
+    hr {
+  width: 90%;
+}
+
   </style>
 
   <header>
@@ -171,23 +219,25 @@
 
           <li>
             <a href="./works.html" style="text-decoration: none"
-              ><h1>WORKS</h1></a
+              ><ul>WORKS</ul></a
             >
           </li>
 
           <li>
-            <a href="./bio.html" style="text-decoration: none"><h1>ABOUT</h1></a>
+            <a href="./bio.html" style="text-decoration: none"><ul>ABOUT</ul></a>
           </li>
 
           <li>
-            <a href="https://drive.google.com/file/d/1yKP6Wr5qEm62AT5oiXWWEtA9xNwFP_9L/view?usp=sharing" style="text-decoration: none"
-              ><h1>RESUME</h1></a
+            <a
+              href="https://drive.google.com/file/d/1bgpk5_nDrY0P6wCKEWuhh6JwAZANwRFT/view?usp=sharing"
+              style="text-decoration: none"
+              ><ul>RESUME</ul></a
             >
           </li>
 
           <li>
             <a href="mailto:soin.an@sjsu.edu" style="text-decoration: none"
-              ><h1>CONTACT</h1></a
+              ><ul>CONTACT</ul></a
             >
           </li>
         </ul>
@@ -196,35 +246,65 @@
   </header>
 
   <!----body---->
-  <body>
-    <main role="main" class="container">
-      <div class="section"><div class="row">
-          <div class="column2">
-           <img
-              src="./resource/cowline.png"
-              alt="portfolio line"
-              width="100%"
-                 /> 
-          <img
-            src="./resource/cow1.jpg"
-            width="100%"
-          />
-            <img
-            src="./resource/extra.jpg"
-            width="100%"
-          />
-        </div></div></div>
-       
-    </main>
-
-    <!--bootsratp-->
-    <script
+   <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer>
-    <p>© Copyright Soin An. All Rights Reserved</p>
-  </footer>
+<footer>
+ <div class="footer">
+    <div class="section">
+          <div class="row">
+            <div class="column">
+               
+           
+                <p><img src="./resource/loca.png"
+                  width="10%"
+                  alt="loca"
+                     /> San Jose, CA</p>
+              
+            <p> <a href="mailto:soin.an@sjsu.edu">   
+              <img src="./resource/mail.png"
+                  width="10%"
+                  alt="mail"
+                    /></a> soin.an@sjsu.edu</p>
+              
+               <p>   <a href="https://drive.google.com/file/d/1bgpk5_nDrY0P6wCKEWuhh6JwAZANwRFT/view?usp=sharing">
+           <img src="./resource/resume.png"
+                  width="10%"
+                  alt="resume"
+                   /></a> Resume</p>
+              
+                      
+              
+   
+         
+            </div>
+            <div class="column">
+              <h2>Soin An</h2>
+              <p>Thank you for visiting my website.<br> This website was made from scratch with love.<br>© Copyright Soin An. All Rights Reserved.</p>
+              <a href="https://www.linkedin.com/in/soin-an-460851222/"><img
+                  src="./resource/in.png"
+                  width="10%"
+                  alt="Linkedin"
+                    /></a>
+              <a href="https://www.instagram.com/littlenot_/"><img
+                  src="./resource/insta.png"
+                  width="10%"
+                  alt="insta"
+                    /></a>
+              <a href="https://github.com/soin0430"><img
+                  src="./resource/git.png"
+                  width="10%"
+                  alt="github"
+                    /></a>
+              
+            </div>
+          </div>
+        </div>
+        
+         
+            </div>
+ </footer>
 </html>
